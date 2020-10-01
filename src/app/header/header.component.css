@@ -1,0 +1,20 @@
+.uk-input
+{
+    border-width: 0 0 2px 0;
+}
+.uk-input:focus  + .uk-form-label,
+.uk-input.not-empty + .uk-form-label
+{
+    transform: translateY(-24px);
+}
+.uk-input:focus
+{
+    outline: none;
+}
+.uk-form-label
+{
+    position: absolute;
+    left: 40px;
+   line-height: 24px;
+    transition: transform 0.2s ease-in-out;
+}

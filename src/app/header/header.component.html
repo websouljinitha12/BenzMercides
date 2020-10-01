@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <nav class="uk-navbar-container" uk-navbar style="background-color:black;">
+       
+        <div class="uk-navbar-left">
+            
+           <div class="uk-margin-large-left">
+               
+            <ul class="uk-navbar-nav ">
+               <li><img data-src="assets\img\download2.jfif" width="80" height="80" alt="" uk-img></li>
+               <li><a href="#" style="color:white" class="uk-visible@m">Mercedes-Benz</a></li>
+                <li class=" uk-visible@m" ><a href="#"  onmouseover="this.style.color='violet'" onmouseout="this.style.color='white'" style="color:white">VEHICLES</a></li>
+                <li class=" uk-visible@m">
+                    <a href="#"  onmouseover="this.style.color='violet'" onmouseout="this.style.color='white'" style="color:white">SHOPPING</a>
+                   
+                </li>
+               
+            </ul>
+    
+        </div>
+        </div>
+    
+        <div class="uk-navbar-right">
+            <a href="#" class="uk-navbar-toggle uk-hidden@m " uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+            <div class="uk-margin-large-right">
+            <ul class="uk-navbar-nav uk-visible@m">
+                <li>
+                    <a href="#"  onmouseover="this.style.color='violet'" onmouseout="this.style.color='white'" style="color:white">
+                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: location"></span>
+                      Find a Dealer
+                    </a>
+                </li>
+                <li><a href="#" onmouseover="this.style.color='violet'" onmouseout="this.style.color='white'"
+                    style="color:white"><span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>My Account</a></li>
+            </ul>
+          
+        </div>
+        </div>
+    
+
+    </nav>
+    <div id="sidenav" uk-offcanvas="overlay: true" class="uk-width-1-1"    >
+        
+        <div class="uk-offcanvas-bar ">
+           
+            
+            
+            <ul class="uk-nav  uk-nav-parent-icon uk-nav-default" data-uk-nav>
+                <li class="uk-parent">
+                    
+                    <a class="uk-text-small uk-text-capitalize" href="#">Vehicles</a>
+
+                    <ul class="uk-nav-sub">
+                        <li class="uk-active" ><a href="#" >SUVs</a></li>
+                        <li class="uk-active "><a href="value-page">Sedans & Wagons</a></li>
+                        <li class="uk-active "><a href="#">Coupes</a></li>
+                        <li class="uk-active "><a href="#">Convertibles & Roadsters</a></li>
+                        <li class="uk-active "><a href="#">Hyrid & Electric</a></li>
+                        <li class="uk-active "><a href="#">Future & Concept</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="uk-parent">
+                    
+                    <a class="uk-text-small uk-text-capitalize" href="#">SHOPPING</a>
+
+                    <ul class="uk-nav-sub">
+                        <li class="uk-active" ><a href="#" >Build & price</a></li>
+                        <li class="uk-active "><a href="value-page">Inventory</a></li>
+                        <li class="uk-active "><a href="#">Finanace</a></li>
+                        <li class="uk-active "><a href="#">Accessories</a></li>
+                        <li class="uk-active "><a href="#">Special Offers</a></li>
+                        <li class="uk-active "><a href="#">My Account</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="uk-parent">
+                    
+                    <a class="uk-text-small uk-text-capitalize" href="#">MY ACCOUNT</a>
+
+                    <ul class="uk-nav-sub">
+                        <li class="uk-active" ><a href="#"  >Owner's Resources </a></li>
+                        <li class="uk-active" ><a href="#" class=" uk-text-italic">Mercedes me</a></li>
+                        
+                        
+                    </ul>
+
+                </li>
+                <li class="uk-parent">
+                    
+                    <a href="#"  onmouseover="this.style.color='violet'" onmouseout="this.style.color='white'" style="color:white">
+                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: location"></span>
+                      Find a Dealer
+                    </a>
+
+                    <ul class="uk-nav-sub">
+                        <li class="uk-active" > <input class="uk-input uk-form-width-small" type="text"  >
+                            <label class="uk-form-label" >Enter ZIP Code or City, State</label> <button class="uk-button uk-button-secondary  uk-text-left uk-width-1-4">Search</button></li>
+                        
+                        
+                        
+                    </ul>
+
+                </li>
+                
+            </ul>
+        
+        </div>
+    </div>
+</body>
+</html>
